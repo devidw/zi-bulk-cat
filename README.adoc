@@ -13,10 +13,12 @@ javascript:(function(){
 }())
 ----
 
-. Add the bookmarklet to your browser's bookmarks bar.
-. Edit an item in Zoho Inventory and open the _Manage Categories_ Dialog.
-. Execute the bookmarklet.
+image::demo.gif[width=100%]
 
+. Add the bookmarklet to your browser's bookmarks bar.
+. Edit an item in Zoho Inventory and open the _Manage Categories_ Dialog (make sure you have at least one category).
+. Execute the bookmarklet.
++
 Once you execute the bookmarklet, you will be prompted to enter the categories you want to create. You can enter multiple categories separated by a comma. White spaces are trimmed before the categories are created.
 
 NOTE:: If you are migrating categories from one Zoho Inventory organization to another, you can simply copy all the category names from the tree vie in your one organization by selecting them all. Now you have a newline separated list in your clipboard, when you have copied your selection. Simply replace the new lines with commas using an online text processor of your choice, and paste the comma separated list into the bookmarklet prompt.
