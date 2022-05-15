@@ -1,0 +1,16 @@
+= Bulk create Zoho Inventory categories
+
+When running a `.csv` items import in Zoho Inventory, the categories are not created automatically. Instead, only existing categories are assigned to the items.
+
+The below bookmarklet allows you to bulk create the categories in Zoho Inventory.
+
+Once you execute the bookmarklet, you will be prompted to enter the categories you want to create. You can enter multiple categories separated by a comma. White spaces are trimmed before the categories are created.
+
+[source,js]
+----
+javascript:(function(){
+    const script = document.createElement('script');
+    script.setAttribute('src', 'https://cdn.jsdelivr.net/gh/devidw/zoho-inventory-bulk-create-categories/index.js');
+    document.body.appendChild(script);
+}())
+----
