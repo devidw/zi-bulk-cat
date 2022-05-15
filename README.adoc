@@ -13,7 +13,14 @@ javascript:(function(){
 }())
 ----
 
-image::demo.gif[width=100%]
+
+== Usage
+
++++
+<p align=center>
+    <img src=demo.gif />
+</p>
++++
 
 . Add the bookmarklet to your browser's bookmarks bar.
 . Edit an item in Zoho Inventory and open the _Manage Categories_ Dialog (make sure you have at least one category).
